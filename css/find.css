@@ -1,0 +1,32 @@
+.find .find__options {
+  display: flex;
+  justify-content: space-around;
+  background-color: #eeeeee;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+.find .find__options .find__option {
+  color: #523737;
+}
+.find .find__options i {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.find__option span {
+  font-size: 12px;
+}
+.find__recommended header {
+  border-bottom: 1px solid #ebebeb;
+  color: inherit;
+  padding: 5px;
+  padding-left: 20px;
+  color: #b4b4b4;
+  font-size: 13px;
+}
+.find__recommended .recommended__none {
+  border-bottom: 1px solid #ebebeb;
+  text-align: center;
+  padding: 20px;
+  color: #c1c1c1;
+}

@@ -1,0 +1,40 @@
+.friends__section .friends__section-header {
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  padding: 10px 20px;
+  color: #bbbbbb;
+  font-size: 12px;
+}
+.friends__section-rows .friends__section-row {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.friends__section-rows .friends__section-row img {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.friends__section-rows .friends__section-row a {
+  text-decoration: none;
+  color: black;
+  /* color: inherit; 부모에게 칼러를 상속받는다.
+  즉 부모와 같은 색*/
+}
+.friends__section-column {
+  display: flex;
+  align-items: center;
+}
+.friends__section-row.with-tagline {
+  display: flex;
+  justify-content: space-between;
+}
+.friends__section-tagline {
+  background-color: #f0f0f0;
+  border: 0px solid;
+  padding: 10px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  color: #939393;
+}

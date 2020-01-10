@@ -1,0 +1,28 @@
+.search-bar {
+  padding: 10px 25px;
+  position: relative;
+}
+.search-bar input {
+  background: #f1f2f3;
+  text-align: center;
+  padding: 5px 7px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 13px;
+  border: 0;
+}
+
+.search-bar i {
+  position: absolute;
+  color: #bbbbbb;
+  top: 15px;
+  left: 40px;
+}
+.search-bar input:focus {
+  outline: none;
+}
+/*focus를 햇을때 placeholder를 사라지게 만드는방법  */
+.search-bar input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
